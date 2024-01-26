@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <p>Payment Page</p>
+  <div class="page-container">
+    <PlanInfoCard />
   </div>
 </template>
 
