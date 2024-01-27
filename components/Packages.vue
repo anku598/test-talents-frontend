@@ -391,6 +391,10 @@ const activePlan = ref("Monthly");
   align-items: center;
   margin-top: 1rem;
 }
+
+.plan-price {
+  font-size: 1.5rem;
+}
 .tab-buttons {
   margin: 2.5rem 0;
   text-align: center;

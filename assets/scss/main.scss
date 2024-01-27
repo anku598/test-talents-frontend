@@ -27,3 +27,23 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.status-rejected {
+  background-color: #fcebed;
+  color: #dc3545;
+}
+
+.status-pending {
+  background-color: #fff9e7;
+  color: #f6b100;
+}
+.status-approved {
+  background-color: #eaf7ed;
+  color: #12b76a;
+}
+
+.status {
+  padding: 0.7rem;
+  border-radius: 1rem;
+  text-align: center;
+}

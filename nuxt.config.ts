@@ -3,6 +3,10 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
 
   css: ["~/assets/scss/main.scss"],
+  modules: [
+    // ...
+    "@pinia/nuxt",
+  ],
 
   vite: {
     css: {
