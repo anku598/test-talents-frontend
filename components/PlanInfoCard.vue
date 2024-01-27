@@ -146,12 +146,23 @@
         <div class="date-txt">Expired On : 6th September, 2024</div>
       </div>
     </div>
+
+    <button class="btn" @click="goToComparePlans">Upgrade Plan</button>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const emit = defineEmits(["changeTab"]);
+
+function goToComparePlans() {
+  emit("changeTab", "comparePlans");
+}
+</script>
 
 <style lang="scss" scoped>
+.btn {
+  @include commonButton(#fff, $surface-bg);
+}
 .plan-info-card {
   box-shadow: $box-shadow;
   background: $primary-body-bg;
@@ -174,6 +185,7 @@
   justify-content: space-between;
   border: 1px solid $gray-200;
   border-radius: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .plan-name,
