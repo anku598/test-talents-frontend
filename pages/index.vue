@@ -1,6 +1,6 @@
 <template>
   <div class="homepage">
-    <h2>Welcome To Test Talants</h2>
+    <h2>Welcome To Test Talents</h2>
     <nuxt-link class="btn" to="/subscription">Go to Biling Page</nuxt-link>
   </div>
 </template>
